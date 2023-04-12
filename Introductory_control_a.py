@@ -1,3 +1,9 @@
+'''
+Citation for refernece-
+https://www.espncricinfo.com/ci/content/page/429305.html#:~:text=A%20team's%20net%20run%20rate,that%20team%20throughout%20the%20competition.
+https://youtu.be/nVX0dHTxKWQ
+'''
+
 def net_rr(runs_scored, overs_played, runs_conceded, overs_bowled):
     nrr = ((runs_scored / overs_played) - (runs_conceded / overs_bowled)) 
     return nrr
